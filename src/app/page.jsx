@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import SearchBar from "@/components/SearchBar";
-import Country from "@/components/Country";
+import SearchBar from "../components/Searchbar";
+import Country from "../components/Country";
 export default function Home() {
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
