@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
-import BackBar from "../components/BackBar";
+import BackBar from "@/components/Backbar";
 
 export default function Details() {
   const { code } = useParams();
